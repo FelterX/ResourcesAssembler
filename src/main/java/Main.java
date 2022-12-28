@@ -11,17 +11,17 @@ public class Main {
         ResourcesAssembler ra = new ResourcesAssembler(
                 "D:/Java Projects/LoneFinalProject/assets",
                 "assets\\",
-                "D:/Java Projects/LoneFinalProject/data.eedata");
+                "C:/Users/kevin/Desktop/data.eedata");
 
         ra.assemble();
 
 
         ResourcesDisassembler rd = new ResourcesDisassembler(
-                "D:/Java Projects/LoneFinalProject/data.eedata",
+                "C:/Users/kevin/Desktop/data.eedata",
                 "C:/Users/kevin/Desktop/data_out/");
 
 
-        rd.disassemble();
+       rd.disassemble();
     }
 
 }
